@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Blue Shirt",
+      "price": 25.5,
+      "slug": "blue-shirt"
+    },
+    {
+      "id": 2,
+      "title": "Red Shirt",
+      "price": 12.1,
+      "slug": "red-shirt"
+    },
+    {
+      "id": 3,
+      "title": "Black Pants",
+      "price": 38.4,
+      "slug": "black-pants"
+    },
+    {
+      "id": 4,
+      "title": "Leather Jacket",
+      "price": 150.9,
+      "slug": "leather-jacket"
+    },
+    {
+      "id": 5,
+      "title": "Walking Shoes",
+      "price": 80.2,
+      "slug": "walking-shoes"
+    },
+    {
+      "id": 6,
+      "title": "Brown Dress Pants",
+      "price": 101.2,
+      "slug": "brown-dress-pants"
+    },
+    {
+      "id": 7,
+      "title": "Velvet Dress",
+      "price": 104.5,
+      "slug": "velvet-dress"
+    },
+    {
+      "id": 8,
+      "title": "White Skirt",
+      "price": 50.7,
+      "slug": "white-skirt"
+    },
+    {
+      "id": 9,
+      "title": "Long Scarf",
+      "price": 12.1,
+      "slug": "long-scarf"
+    },
+    {
+      "id": 10,
+      "title": "Winter Coat",
+      "price": 79.9,
+      "slug": "winter-coat"
+    }
+  ]
+}

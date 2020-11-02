@@ -1,30 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    How to Return 404 while using  Fallback Blocking in Next.js
+</h1>
 
-## Getting Started
+<h3>This tiny example is part of the Medium article I created demonstrating how to properly return the status codes of pages generated with fallback blocking. </h3>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
+[Here is the Link for the article](https://medium.com)
+
+<br>
+<br>
+
+<p>
+  As default Next.js will handle errors originated from fallback blocking pages with the status code 200.
+</p>
+
+<p align="center">
+  <img alt="Status Code Before Tutorial" src="./public/article_image_1.png" width="400px" />
+</p>
+
+<p>
+  But with simple steps we can change that and display the status code we want.
+</p>
+
+<p align="center">
+  <img alt="Status Code After Tutorial" src="./public/article_image_2.png" width="400px" />
+</p>
+
+<br>
+<br>
+
+## How to run this code?
+
+- First you need to clone this repository to your local machine.
+- Now you need to installs all the dependencies:
+
+```
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- After that you will need to build the Next app (The status code manipulation will not work in dev mode)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+yarn build
+```
 
-## Learn More
+- Before running the app we need to start our fake API with:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npx json-server server.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- And finally we just need to run our application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+yarn start
+```
 
-## Deploy on Vercel
+## :memo: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Made with ♥ by Victor Alvarenga :wave: [Get in touch!](https://www.linkedin.com/in/victoralvarenga/)
