@@ -6,7 +6,7 @@
 
 <br>
 
-[Here is the Link for the article](https://medium.com)
+[Here is the Link for the article](https://victorthadeu-66076.medium.com/how-to-return-404-while-using-fallback-blocking-in-next-js-6fda63aad818)
 
 <br>
 <br>
