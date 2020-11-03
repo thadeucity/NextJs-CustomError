@@ -1,5 +1,5 @@
 <h1 align="center">
-    How to Return 404 while using  Fallback Blocking in Next.js
+    How to Return custom error status code while using  Fallback Blocking in Next.js
 </h1>
 
 <h3>This tiny example is part of the Medium article I created demonstrating how to properly return the status codes of pages generated with fallback blocking. </h3>
@@ -33,7 +33,7 @@
 ## How to run this code?
 
 - First you need to clone this repository to your local machine.
-- Now you need to installs all the dependencies:
+- Now you need to install all the dependencies:
 
 ```
 yarn install
